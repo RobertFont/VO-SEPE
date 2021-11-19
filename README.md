@@ -32,6 +32,7 @@ Aquest document detalla la missatgeria associada al servei de l’Instituto Naci
 Per poder realitzar la integració cal conèixer prèviament la següent documentació:
 •	Document d’Especificació de missatgeria pel consum de productes de la plataforma PCI del Consorci AOC.
 
+
 # 2 Transmissions de dades disponibles <a name="2"></a>
 
 Les dades disponibles a través del servei són les que es presenten a continuació:
@@ -47,6 +48,7 @@ Les dades disponibles a través del servei són les que es presenten a continuac
 | INEM | VERIF_IMPORTS_PERIODE | Informació sobre el certificat d’imports per període. |
 
 Totes les consultes del producte tenen disponible la versió imprimible del resultat de la consulta en format PDF. Per més detalls adreceu-vos a l’apartat Extensions de missatgeria del document de missatgeria genèrica.
+
 
 # 3 Missatgeria dels serveis <a name="3"></a>
 
@@ -136,7 +138,6 @@ De <i>l’schema</i> associat a la resposta especifica, el servei informa les da
 
 | **ELEMENT** | **DESCRIPCIÓ** |  
 | --- | --- | 
-
 | //DatosImporteActual/TIPRES | Descripció del tipus de prestació o subsidi del darrer dret reconegut al beneficiari. |
 | //DatosImporteActual/FXINICIOSITUACION | Data d'inici de la situació actual del dret (format DD/MM/AAAA). |
 | //DatosImporteActual/FXFINSITUACION | Data de fi de la situació del dret (format DD/MM/AAAA). Si està de baixa no tindrà valor. |
@@ -183,7 +184,6 @@ De <i>l’schema</i> associat a la resposta especifica, el servei informa les da
 
 | **ELEMENT** | **DESCRIPCIÓ** |  
 | --- | --- | 
-
 | //DatosImportePeriodo/IPF	 | Identificador de persona física del SPEE (Servicio Público de Empleo Estatal) – INEM. |
 | //DatosImportePeriodo/FXINICIO | 	Data d'inici del període (format MM/AAAA). |
 | //DatosImportePeriodo/FXFINAL | 	Data de fi del període (format MM/AAAA). |
